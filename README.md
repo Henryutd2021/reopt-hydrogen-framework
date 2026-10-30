@@ -42,7 +42,7 @@ The complete mathematics, keyed to Eqs. (1)–(35) of the article, is in [docs/f
 ```bash
 git clone https://github.com/Henryutd2021/reopt-hydrogen-framework.git
 cd reopt-hydrogen-framework
-python -m venv .venv && source .venv/bin/activate      # Python 3.10 or newer (tested with 3.12)
+python3 -m venv .venv && source .venv/bin/activate    # needs Python 3.10+ (check: python3 --version); if older, use e.g. python3.12
 pip install -e ".[test]"
 python examples/minimal.py                              # synthetic three-day example, HiGHS, a few seconds
 pytest
