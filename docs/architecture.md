@@ -4,7 +4,7 @@
 
 | Module | Content |
 |---|---|
-| `parameters.py` | `PARAMETERS` (symbol, unit, description, lower bound, default of every parameter), `Parameters` (validated values), `canonical_units`, present-worth factor `pwf`, `FinancialFactors` ($f^{om}$, $f^{e}$, $f^{tow}$, $f^{pi}$), `effective_capital_cost` |
+| `parameters.py` | `PARAMETERS` (symbol, unit, description, lower bound, default of every parameter), `Parameters` (validated values), `canonical_units`, present-worth factor `pwf`, `FinancialFactors` ($`f^{om}`$, $`f^{e}`$, $`f^{tow}`$, $`f^{pi}`$), `effective_capital_cost` |
 | `inputs.py` | `Configuration` (candidate technologies), `Instance` (configuration, parameters, hourly series, fixed sizes; validated by `Instance.create`), `SERIES` and their units |
 | `model.py` | `ModelOptions`, `build_model` (the linopy model; constraint names carry the equation numbers), `PlanningModel` |
 | `solve.py` | `solve`: in-memory hand-over to HiGHS (default) or Gurobi; raises `SolveError` unless the solution is optimal |

@@ -19,7 +19,7 @@ The examples fix the size of the wind or solar plant through `fixed_sizes`. To s
 
 Two settings define how the system meets electricity needs ([formulation](formulation.md)):
 
-- **`delivery="target"`** (Eq. 21): the system delivers a stabilized output $\delta^{d}_h$ to the grid in every hour.
+- **`delivery="target"`** (Eq. 21): the system delivers a stabilized output $`\delta^{d}_h`$ to the grid in every hour.
 - **`delivery="site_load"`** (Part B1): the system serves a site load together with the grid, sells surplus energy, and must serve the load alone during outage hours. A benchmark is a grid-connected wind farm serving a load. It is extended step by step with an electrolyzer and tank, and then a fuel cell, and tested against a block of randomly chosen outage hours.
 
 ## Sensitivity families

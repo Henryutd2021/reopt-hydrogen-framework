@@ -31,7 +31,7 @@ This page describes how the inputs of the model are built, the rules applied whi
 5. **Production factors.** Divide hourly power by the rated power of the same plant or turbine (`preprocess.capacity_factor`). A maximum above 1 points to a wrong rated power or wrong units. The helper refuses values more than 2 % above 1 and clips the rest.
 6. **Availability.** To represent expected downtime from an operation-and-maintenance study, scale the production factor by the availability share (`preprocess.availability_from_downtime`, `preprocess.apply_availability`). Enter the corresponding O&M cost as `wind.fixed_om`.
 7. **CSP profiles.** Run the SAM model of the plant for the same year and weather file. Divide the hourly thermal output and parasitic load by the design thermal output, so that the model can scale the plant.
-8. **Costs.** Convert capital costs to the units of `parameters.canonical_units()`. For example, an electrolyzer cost per kW of input power, times the electricity per kg ($m_e$), gives the cost per kg/h of capacity. Apply investment incentives and depreciation with `effective_capital_cost`.
+8. **Costs.** Convert capital costs to the units of `parameters.canonical_units()`. For example, an electrolyzer cost per kW of input power, times the electricity per kg ($`m_e`$), gives the cost per kg/h of capacity. Apply investment incentives and depreciation with `effective_capital_cost`.
 9. **Checks before solving.** `Instance.create` checks equal lengths, finite values, ranges of production factors, non-negative loads, 0/1 outage flags, and the presence of every series and parameter the configuration needs. `read_inputs` also checks the units of every parameter and that hours run 1..|H| without gaps.
 
 ## 3. Input directory format
