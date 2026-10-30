@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reopt-h2-framework"
+version = "1.0.0"
+description = "Hydrogen-extended sizing and dispatch of wind, solar, storage, electrolyzer, hydrogen tank and fuel cell (framework of Li & Zhang, J. Mech. Des. 2024)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Honglin Li"}]
+requires-python = ">=3.10"
+# Lower bounds = oldest versions the test suite was run with (and passed); newest tested: see environment.yml
+dependencies = ["numpy>=1.26", "pandas>=2.2", "xarray>=2024.6", "linopy>=0.4.4", "highspy>=1.7.2"]
+keywords = ["hydrogen", "wind energy", "solar energy", "techno-economic analysis", "REopt", "MILP"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+gurobi = ["gurobipy"]
+test = ["pytest"]
+
+[project.scripts]
+reopt-h2-framework = "reopt_h2_framework.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

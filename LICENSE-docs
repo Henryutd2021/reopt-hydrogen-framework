@@ -1,0 +1,10 @@
+Documentation licence
+
+The documentation of this repository (README.md and the files in docs/) is licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 Honglin Li
+
+Everything else in the repository (code, tests, examples, configuration and metadata files) is
+licensed under the MIT licence in the file LICENSE.

@@ -1,0 +1,106 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below (preferred citation) and this software."
+title: "REopt hydrogen framework: sizing and dispatch of wind, solar, storage and hydrogen systems"
+version: "1.0.0"
+repository-code: "https://github.com/Henryutd2021/reopt-hydrogen-framework"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: Li
+    given-names: Honglin
+    orcid: "https://orcid.org/0000-0002-8405-3032"
+keywords:
+  - hydrogen
+  - wind energy
+  - solar energy
+  - energy storage
+  - techno-economic analysis
+  - mixed-integer linear programming
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Li
+      given-names: Honglin
+      orcid: "https://orcid.org/0000-0002-8405-3032"
+    - family-names: Zhang
+      given-names: Jie
+  title: "Towards Sustainable Integration: Techno-Economic Analysis and Future Perspectives of Co-Located Wind and Hydrogen Energy Systems"
+  journal: "Journal of Mechanical Design"
+  volume: 146
+  issue: 2
+  start: "020903"
+  year: 2024
+  doi: 10.1115/1.4063971
+references:
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: Honglin
+        orcid: "https://orcid.org/0000-0002-8405-3032"
+      - family-names: Rahman
+        given-names: Jubeyer
+      - family-names: Zhang
+        given-names: Jie
+    title: "Optimal Planning of Co-Located Wind Energy and Hydrogen Plants: A Techno-Economic Analysis"
+    journal: "Journal of Physics: Conference Series"
+    volume: 2265
+    issue: 4
+    start: "042063"
+    year: 2022
+    doi: 10.1088/1742-6596/2265/4/042063
+  - type: conference-paper
+    authors:
+      - family-names: Li
+        given-names: Honglin
+        orcid: "https://orcid.org/0000-0002-8405-3032"
+      - family-names: Kiviluoma
+        given-names: Juha
+      - family-names: Zhang
+        given-names: Jie
+    title: "Techno-Economic Analysis for Co-located Solar and Hydrogen Plants"
+    collection-title: "2023 19th International Conference on the European Energy Market (EEM)"
+    year: 2023
+    doi: 10.1109/EEM58374.2023.10161786
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: Honglin
+        orcid: "https://orcid.org/0000-0002-8405-3032"
+      - family-names: Li
+        given-names: Mingxin
+      - family-names: Carroll
+        given-names: James
+      - family-names: Zhang
+        given-names: Jie
+    title: "Techno-Economic Analysis Incorporating Intelligent Operation and Maintenance Management: A Case Study of An Integrated Offshore Wind and Hydrogen Energy System"
+    journal: "Journal of Physics: Conference Series"
+    volume: 2767
+    issue: 6
+    start: "062016"
+    year: 2024
+    doi: 10.1088/1742-6596/2767/6/062016
+  - type: report
+    authors:
+      - family-names: Cutler
+        given-names: Dylan
+      - family-names: Olis
+        given-names: Daniel
+      - family-names: Elgqvist
+        given-names: Emma
+      - family-names: Li
+        given-names: Xiangkun
+      - family-names: Laws
+        given-names: Nicholas
+      - family-names: DiOrio
+        given-names: Nicholas
+      - family-names: Walker
+        given-names: H.
+      - family-names: Anderson
+        given-names: Katherine
+    title: "REopt: A Platform for Energy System Integration and Optimization"
+    institution:
+      name: "National Renewable Energy Laboratory"
+    number: "NREL/TP-7A40-70022"
+    year: 2017
+    doi: 10.2172/1395453
