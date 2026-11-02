@@ -1,5 +1,7 @@
 # REopt hydrogen framework: sizing and dispatch of wind, solar, storage and hydrogen systems
 
+Author: [Honglin Li](https://henryutd2021.github.io/)
+
 A documented, runnable implementation of the hydrogen-extended techno-economic optimization model in:
 
 > Honglin Li and Jie Zhang. **Towards sustainable integration: techno-economic analysis and future perspectives of co-located wind and hydrogen energy systems.** *Journal of Mechanical Design* 146(2) (2024) 020903. [doi:10.1115/1.4063971](https://doi.org/10.1115/1.4063971)
